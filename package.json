@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ArturoMendozaA/express_basic#readme",
   "devDependencies": {
     "jest": "^28.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
