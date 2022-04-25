@@ -22,6 +22,13 @@ app.get('/explorersInNode', (req, res) => {
     const explorer = { name: "Explorer", msg: "Hello"}
     res.send(explorer)
 })
+//Query Params: Recibir parámetros por la url
+// http://localhost:3000/explorers/mendoza
+//req.params = {"explorerName": "mendoza"}
+app.get('/explorers/:explorerName', (req, res) => {
+    console.log(req.params)
+    res.send(req.params)
+})
 
 //Special routing method
 // app.all('/secret', (req,res) => {
