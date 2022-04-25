@@ -1,0 +1,22 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoMendozaA/express_basic.git"
+  },
+  "author": "ArturoMendozaA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturoMendozaA/express_basic/issues"
+  },
+  "homepage": "https://github.com/ArturoMendozaA/express_basic#readme",
+  "devDependencies": {
+    "jest": "^28.0.0"
+  }
+}
